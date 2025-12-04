@@ -26,6 +26,10 @@ function askRiddle(riddleObj = Object) {
 }
 
 function measureSolveTime(fn) {
-    return Number
+    const beggeinTime = new Date()
+    fn()
+    const endTime = new Date()
+    const total = endTime - beggeinTime
+    return total / 1000
 }
 
