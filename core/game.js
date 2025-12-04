@@ -33,3 +33,6 @@ function measureSolveTime(fn) {
     return total / 1000
 }
 
+
+export default {askRiddle, measureSolveTime }
+
