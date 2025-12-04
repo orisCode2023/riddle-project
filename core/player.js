@@ -5,9 +5,9 @@ const createPlayer = (name) => {
     }
 }
 
-function addSolveTime(player, seconds){
-    return null
-}
+const addSolveTime = (player=Object, seconds) => player.times.push(seconds)
+
+
 
 
 function showStats(player){
