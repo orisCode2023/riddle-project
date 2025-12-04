@@ -1,10 +1,8 @@
-const player = {
-    naem: "",
-    times : []
-}
-
-function createPlayer(name){
-    return Object
+const createPlayer = (name) => {
+    return {
+        name: name,
+        times: []
+    }
 }
 
 function addSolveTime(player, seconds){
