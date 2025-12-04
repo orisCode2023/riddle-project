@@ -5,4 +5,4 @@ const riddle1 = {
     correctAnswer:"9"
 }
 
-export default {riddle1}
+export default riddle1;

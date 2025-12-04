@@ -6,4 +6,4 @@ const riddle2 = {
     correctAnswer:"lion"
 }
 
-export default {riddle2}
+export default riddle2;
