@@ -5,3 +5,4 @@ const getTotal = (arr = []) => {
     });
     return sum
 }
+const getAvarage = (arr=[], sum) => sum / arr.length
