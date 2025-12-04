@@ -1,6 +1,6 @@
 const riddle = {
-    id: 0,
-    name: "String",
-    taskDescription:"String" ,
-    correctAnswer:"String"
+    id: 2,
+    name: "geuss noise",
+    taskDescription:"which of the following animal is roar" ,
+    correctAnswer:"lion"
 }
