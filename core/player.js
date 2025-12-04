@@ -1,3 +1,5 @@
+import calc from "./utills.js"
+
 const createPlayer = (name) => {
     return {
         name: name,
@@ -5,11 +7,16 @@ const createPlayer = (name) => {
     }
 }
 
-const addSolveTime = (player=Object, seconds) => player.times.push(seconds)
+const addSolveTime = (player = Object, seconds) => player.times.push(seconds)
 
 
 
 
-function showStats(player){
-    return null
+function showStats(player = Object) {
+    const sum = calc.getTotal(player.times)
+    console.log(`The total time to solve riddles is: ${sum}`)
+    console.log(`The avarage time to solve riddles is: ${calc.getAvarage(player.times, sum)}`)
 }
+
+
+export default { createPlayer, addSolveTime, showStats }
